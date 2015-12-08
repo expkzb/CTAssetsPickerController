@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
                          It uses **ARC**. Requires **AssetsLibrary** and **MediaPlayer** frameworks.
                        DESC
 
-  s.homepage         = 'https://github.com/chiunam/CTAssetsPickerController'
-  s.screenshot       = 'https://raw.github.com/chiunam/CTAssetsPickerController/master/Screenshot.png'
+  s.homepage         = 'https://github.com/expkzb/CTAssetsPickerController'
+  s.screenshot       = 'https://raw.github.com/expkzb/CTAssetsPickerController/master/Screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Clement T' => 'chiunam@gmail.com' }
   s.platform         = :ios, '7.0'
-  s.source           = { :git => 'https://github.com/chiunam/CTAssetsPickerController.git', :tag => 'v2.9.5' }
+  s.source           = { :git => 'https://github.com/expkzb/CTAssetsPickerController.git', :tag => 'v2.9.5' }
   s.source_files     = 'CTAssetsPickerController/*.{h,m}'
   s.resource_bundles = { 'CTAssetsPickerController' => ['Resources/CTAssetsPicker.xcassets/*/*.png', 'Resources/*.lproj'] }
   s.frameworks       = 'AssetsLibrary', 'MediaPlayer'
