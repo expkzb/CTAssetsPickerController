@@ -185,7 +185,7 @@ NSString * const CTAssetsSupplementaryViewIdentifier = @"CTAssetsSupplementaryVi
         }
     };
     
-    [self.assetsGroup enumerateAssetsUsingBlock:resultsBlock];
+    [self.assetsGroup enumerateAssetsWithOptions:NSEnumerationReverse usingBlock:resultsBlock];
 }
 
 
